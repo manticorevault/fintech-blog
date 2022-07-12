@@ -16,7 +16,7 @@ export default function Home ({ posts } : { posts: any}) {
         <div>
           { posts.map((post: any) => (
             <PostCard 
-              post={ post }
+              post={ post.node }
               key={post.title}
             />
           ))}
