@@ -24,7 +24,7 @@ export default function Home ({ posts } : { posts: any}) {
 
         <div className='lg:col-span-4 col-span-1'>
             <div className='lg:sticky relative top-8'>
-              <PostWidget />
+              <PostWidget categories={undefined} slug={undefined}/>
               <Categories />
             </div>
         </div>
